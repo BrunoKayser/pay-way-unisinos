@@ -1,0 +1,37 @@
+:root {
+    --color--purple: #5D5FEF;
+    --color--purple-light: #A5A6F6;
+}
+
+* {
+    list-style-type: none
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.container-bills {
+    height: 450px;
+    overflow-y: scroll;
+    box-shadow: 0 0 5px solid rgba(0, 0, 0, 0.3);
+}
+
+.container-bills::-webkit-scrollbar {
+    width: 10px;
+    border: 1px solid var(--color--purple) ;
+    border-radius: 6px;
+}
+
+.container-bills::-webkit-scrollbar-thumb {
+    background-color: var(--color--purple-light);
+    border-radius: 6px;
+}
+
+.new-bill{
+    font-weight: 600;
+}
+
+.new-bill div {
+    margin-right: 7%;
+}

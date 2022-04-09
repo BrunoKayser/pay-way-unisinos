@@ -1,0 +1,26 @@
+:root {
+    --color--purple: #5D5FEF;
+}
+
+.button-back {
+    width: 8%;
+    height: 8%;
+    color: var(--color--purple);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.title-bills {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

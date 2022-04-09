@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color--purple: #5D5FEF;
+    --color--purple-light: #A5A6F6;
+    --color--white: #ffffff;
+}
+
+.container-new-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color--purple-light);
+    padding: 20px;
+    width: 89%;
+    position: absolute;
+    border-radius: 8px;
+    color: white;
+}
+
+.new-account-title{
+    font-size: 33px;
+    line-height: 49.5px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.login-submit-style{
+    background-color: var(--color--purple);
+}
+
+.login-close {
+    border: none;
+    width: 50%;
+    background-color: var(--color--white);
+    border-radius: 4px;
+    height: 20px;
+    color: var(--color--purple);
+    font-weight: 600;
+    cursor: pointer;
+}

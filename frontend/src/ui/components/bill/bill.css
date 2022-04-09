@@ -1,0 +1,81 @@
+:root {
+    --color--purple: #5D5FEF;
+    --color--purple-light: #A5A6F6;
+    --color--white: #ffffff;
+    --color--grey: #d3d3d3;
+}
+
+.container-bill {
+    display: flex;
+    border-bottom: 1px solid var(--color--grey);
+    width: 96%;
+    height: 140px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    
+}
+
+.img-bill {
+    width: 60px;
+    height: 60px;
+    background-color: var(--color--purple-light);
+    border-radius: 8px;
+    align-self: center;
+}
+
+.img-bill-icon {
+    width: 70%;
+    height: 70%;
+    color: var(--color--purple);
+    margin-left: 14%;
+    margin-top: 14%;
+}
+
+.img-bill IconType {
+    width: 100%;
+}
+
+.bill-information {
+    width: 60%;
+    margin-left: 12px;
+    text-align: justify;
+}
+
+.bill-information h3 {
+    margin-top: 10px;
+
+}
+
+.bill-information p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bill-button {
+    margin-top: 40px;
+    width: 20%;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid var(--color--purple);
+    color: var(--color--purple);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: var(--color--white);
+    cursor: pointer;
+}
+
+.new-bill {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 38%;
+    background-color: var(--color--purple);
+    margin-left: 33%;
+    border-radius: 8px;
+    padding: 0px 0px 0px 0px;
+    color: var(--color--white);
+    cursor: pointer; 
+}
